@@ -1,0 +1,135 @@
+
+body {
+  background: #233644 url("https://i.pinimg.com/originals/f6/17/62/f61762ecbed5645a9967b5b52ef3b62e.gif"); 
+	background-size: cover;
+	background-attachment: fixed;
+  background-position:center;
+	font-family: "VT-100", fixedsys, System, monospace;
+	font-size: 13px;
+  }
+  
+center {
+  text-align: center;
+  }
+  
+a {
+  color: #3c5832;
+  }
+
+  
+.sidebar-group {
+  position: fixed;
+  top: 0;
+  margin-top: 25px;
+  }
+  
+
+.sidebar, .mini-sidebar, .wide-sidebar, .box {
+  background: #676a89;
+  border-radius: 5px;
+  border: 1px solid #272d5c;
+  box-shadow: 2px 2px #181e4a;
+  }
+  
+
+.sidebar img, .mini-sidebar img, .wide-sidebar img, .box img {
+  max-width: 100%;
+  height:auto; 
+  }
+  
+.sidebar, .sidebar-box {
+  display: inline-block;
+  vertical-align: top;
+  width: 160px;
+  }
+  
+
+.sidebar-box {
+  margin-left: 10px;
+  }
+  
+.sidebar {
+  width: 160px;
+  margin-left: 25px;
+  }
+  
+.mini-sidebar {
+  margin-bottom: 25px;
+  }
+  
+.wide-sidebar {
+  margin-left: 25px;
+  margin-top: 25px;
+  width: 340px;
+  min-height: 150px;
+  }
+  
+
+.inner {
+  padding: 10px;
+  padding-bottom: 5px;
+  padding-top: 0px;
+  }
+
+
+.title-bar, .box-title-bar {
+  background: #272d5c;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  }
+  
+
+.box-title-bar {
+  padding: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  }
+  
+
+.right {
+  float: right;
+  margin-right: 5px;
+  font-family: "Arial", sans-serif;
+  line-height: 12px;
+  }
+  
+
+.icon {
+  border: #181e4a solid 2px;
+  border-radius: 50%;
+  }
+  
+
+.box {
+  margin-top: 25px;
+  margin-left: 400px;
+  width: 455px;
+  margin-bottom: 25px;
+  }
+  
+  
+  
+
+.big-quote {
+  font-size: 32px;
+  color: #Bdbec7;
+  letter-spacing: 6px;
+  word-spacing: 2px;
+  font-family: "Garamond", "Bookman", serif;
+  position: fixed;
+  margin-left: 1050px;
+  margin-top: 300px;
+  top: 0;
+  width: 300px;
+  }
+  
+wide {
+  letter-spacing: 16px;
+  }
+  
+midwide {
+  letter-spacing: 3px;
+  }
