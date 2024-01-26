@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="shortcut icon" href="clubb/pp.png"/>
+    <meta charset="UTF-8">
+    <title>the club</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <style type="text/css">
+     body, a {cursor: url("https://64.media.tumblr.com/d87f46a7c259b6362e96cd0dd7c45e0a/tumblr_inline_prh3sg84xt1w1xdc5_540.png"),
+
+    auto;}
+
+    a:hover {cursor: url("https://66.media.tumblr.com/49c482a97246b988bffa7929e2077a67/tumblr_inline_prh3bmwzpm1w1xdc5_540.png"), auto;}
+
+    ::selection {
+background: #fff;
+color: #000;
+}
+::-moz-selection {
+background: #fff;
+color: #000;
+}
+
+
+
+    ::-webkit-scrollbar {
+    width: 17px;
+    height: 10px;
+}
+::-webkit-scrollbar-button {
+    background-size: 100%;
+    height: 17px;
+    width: 17px;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+
+
+::-webkit-scrollbar-button:horizontal:increment {
+    background-image: url(https://dl.dropboxusercontent.com/u/55165267/icon2.png);
+}
+
+::-webkit-scrollbar-button:horizontal:decrement {
+    background-image: url(https://dl.dropboxusercontent.com/u/55165267/icon4.png);
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+    background-image: url(https://66.media.tumblr.com/7827eb3bd7769a36b79f18af841ff860/tumblr_prgf5oNZKg1xxtdr0o2_75sq.png);
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+    background-image: url(https://66.media.tumblr.com/3d02e1dc0c5b7d2e8d9d4faad798059a/tumblr_prgf5oNZKg1xxtdr0o1_75sq.png);
+}
+
+::-webkit-scrollbar-track {
+    background: #f8f8f8;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
+}
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+width: 17px;
+height: 8px;
+}
+
+::-webkit-scrollbar-track {
+background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    border:1px outset;
+    border-bottom:#000 solid 1px;
+background: #bbb;  
+}
+
+
+
+::-webkit-scrollbar-corner {
+background: black;
+}
+
+    /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by defaulfgfbt */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #000;
+  margin: auto;
+  padding: 20px;
+  height:420px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.modal-content a{
+    margin-left:20px;
+    display: inline-block;
+    height:100px;
+  width:100px;
+}
+
+.modal-content a:hover{
+    margin-top:-1px;
+    margin-left:19px;
+    height:100px;
+    width:100px;
+    background:#33393e; 
+    border:1px solid #bababa;
+
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    cursor: url("https://66.media.tumblr.com/49c482a97246b988bffa7929e2077a67/tumblr_inline_prh3bmwzpm1w1xdc5_540.png"), auto;
+  color: #5a5b55;
+  text-decoration: none;
+}
+
+    html{
+
+
+
+    overflow-x: hidden;
+  overflow-y: hidden;
+
+
+
+
+        font-family:ms gothic;
+        font-size:13px;
+        background:#000000;
+        color:#ffffff;
+        height:100%;
+        margin-top:-0;
+    }
+        body {
+            margin-top:-0;
+            height:100%;
+            padding-top:1px;
+  background: #000000;
+  color:#ffffff;
+}
+
+
+
+
+div {
+
+  margin: 0 auto 0 auto;
+  width:1000px;
+  height:550px;
+}
+
+#desk{
+    margin-top:65px;
+}
+
+#screen button{
+    font-family:"ms gothic";
+  font-size:12px;
+  outline:0px
+  background:none;
+  border-width:0px;
+  padding:0px 0px;
+  margin:0px 0px px;
+  bottom:0px;
+}
+
+
+
+
+#computer{
+    margin-top:-546px;
+    margin-left:50px;
+}
+
+#screen img:hover{
+    cursor: url("https://66.media.tumblr.com/49c482a97246b988bffa7929e2077a67/tumblr_inline_prh3bmwzpm1w1xdc5_540.png"), auto;
+}
+
+#screen{
+    margin-top:-481px;
+    margin-left:318px;
+}
+
+#light{
+    transition: all .5s, transform .5s;
+
+-moz-transition: all .5s, -moz-transform .5s;
+
+-webkit-transition: all .5s, -webkit-transform .5s;
+
+-o-transition: all .5s, -o-transform .5s;
+    margin-top:-731px;
+    margin-left:650px;
+    width:71px;
+}
+
+#light:hover{
+    transition: all .5s, transform .5s;
+
+-moz-transition: all .5s, -moz-transform .5s;
+
+-webkit-transition: all .5s, -webkit-transform .5s;
+
+-o-transition: all .5s, -o-transform .5s;
+    margin-top:-689px;
+
+
+}
+
+    </style>
+  </head>
+
+
+
+
+
+
+
+
+
+
+
+  <body>
+    <div>
+  <div id="desk">
+      <img src="https://66.media.tumblr.com/d1ad85323e7ef1a1aa2944acf19e88c0/tumblr_prb8xuKrKA1xxtdr0o1_1280.png" draggable="false" >
+  </div>
+  <div id="computer">
+      <img src="https://66.media.tumblr.com/4ec59ef4a936a8ea10276e13f4e57c01/tumblr_prbfd78cXq1xxtdr0o2_r1_1280.png" draggable="false" >
+  </div>
+   <div id="screen">
+
+   <!-- Trigger/Open The Modal -->
+<button id="myBtn"><img src="clubb/modal.gif" draggable="false" ></button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>
+
+
+
+
+
+        <a target="_blank" a href="https://fckgng.lol/ankh"><img src="clubb/founder.png"></a>
+
+
+         <a target="_blank" a href="https://fckgng.lol"><img src="clubb/globe.png"></a>
+
+
+
+          <a target="_blank" a href="https://fckgng.lol/chat"><img src="clubb/chat.png"></a>
+
+
+
+
+         <p>
+
+
+
+             </p><br><br>
+
+             <a target="_blank" a href="https://www.youtube.com/@fckgngg"><img src="clubb/tube.png"></a>
+
+
+
+             <a target="_blank" a href="https://soundcloud.com/fckgng/tracks"><img src="clubb/music.png"></a>
+
+
+
+             <a target="_blank" a href="https://www.instagram.com/ankh2x"><img src="clubb/dm.png"></a>
+
+
+
+             <p>
+
+
+
+             </p><br><br>
+
+
+             <a target="_blank" a href=""><img src=""></a>
+
+
+
+
+             <a target="_blank" a href=""><img src=""></a>
+
+
+
+             <a target="_blank" a href=""><img src=""></a>
+
+             <p>
+
+         </p><br><br>
+
+
+
+
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+  </div>
+  <div id="light" >
+      <img src="https://66.media.tumblr.com/46851ee59ffb1643550e5cfa9a9582c7/tumblr_prb9r0IVQ61xxtdr0o1_250.png" draggable="false"  onclick="javascript: (
+function () { 
+    var css = 'html {-webkit-filter: invert(100%);' +
+        '-moz-filter: invert(100%);' + 
+        '-o-filter: invert(100%);' + 
+        '-ms-filter: invert(100%); }',
+    head = document.getElementsByTagName('head')[0],
+    style = document.createElement('style');
+
+if (!window.counter) { window.counter = 1;} else  { window.counter ++;
+if (window.counter % 2 == 0) { var css ='html {-webkit-filter: invert(0%); -moz-filter: invert(0%); -o-filter: invert(0%); -ms-filter: invert(0%); }'}
+ };
+
+style.type = 'text/css';
+if (style.styleSheet){
+  style.styleSheet.cssText = css;
+} else {
+  style.appendChild(document.createTextNode(css));
+}
+
+head.appendChild(style);
+ }());
+">
+  </div>
+</div>
+
+
+<center>
+<br><p></p><br><p></p><br><p></p>
+<img src="https://cutekawaiiresources.files.wordpress.com/2013/04/tumblr_m3wjbhyeln1rodiav.gif?w=100"></img>
+</center>
+
+  </body>
+
+<h1 style="text-align:center;"><font face="verdana" size="1" align="centre">© 2023 FCKGNG All Rights Reserved</font></h1>
+
+</html>
