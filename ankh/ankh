@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="aaa/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>ankh</title>
+    <meta charset="UTF-8" />
+    <meta property="og:site_name" content="fckgng.lol">
+    <meta name="theme-color" content="#2f3136">
+    <meta name="keywords" content="fckgng.lol" />
+    <meta name="author" content="ankh" />
+    <meta property="og:type" content="site" />
+    <meta property="og:title" content="fckgng" />
+    <meta property="og:url" content="https://fckgng.lol/" />
+    <meta itemprop="name" content="fckgng" />
+
+    <meta itemprop="description" content="visit fckgng.lol" />
+    <meta name="description" content="visit fckgng.lol" />
+    <meta property="og:description" content="visit fckgng.lol" />
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/859910530029322321/1119448673684815912/emote.png">
+
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/859910530029322321/1119447638752886875/emote.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<body>
+
+<style>
+    .musicbtn{background:#000000}
+    .username{font-family:'Strange Piece'}
+    body {
+        background: #000000 url("https://i.pinimg.com/originals/7d/35/4d/7d354de017903aeb824624d53ca90d54.gif")center center;
+        background-size: cover;
+    }
+</style>
+
+<audio autoplay="" loop="" id="audioatp" src="assets/music/Dissolve.mp3"></audio>
+
+<div class="">
+    <div class="center">
+        <div class="container">
+            <img class="pfp-image" src="image/ankhp.jpg" alt="pfp">
+            <p class="username" style="color:#ffffff"><span class="sparkle">ankh</span></p>
+            <p class="badges"><img class="badge" src="image/nerd.png" title="Nerd">
+            <p class="bio-text">16</p>
+            <div class="socials">
+                <!-- <div class="tooltip"><a><span class="tooltiptext">tooltips</span>Veri</a></div> -->
+                <div class="tooltip"><a target="_blank" href="https://instagram.com/ankh2x"><i class="fa-brands fa-instagram social-icons"></i></a></div>
+                <div class="tooltip"><a target="_blank" href="https://twitter.com/1scpk"><i class="fa-brands fa-twitter social-icons"></i></a></div>
+                <div class="tooltip"><a target="_blank" href="https://www.youtube.com/watch?v=Y7nDKcf4d7U"><i class="fa-brands fa-youtube social-icons"></i></a></div>
+                <div class="tooltip"><a target="_blank" href="https://soundcloud.com/1drac"><i class="fa-brands fa-soundcloud social-icons"></i></a></div>
+             </div>
+        
+        </div>
+            </div>
+        </div>
+
+<div id="blurthepage" class="blurpage">
+    <div class="center">
+        <button class="musicbtn" id="musicbtn">
+            <i id="volumebtn" class="fas fa-volume-up"></i>
+        </button>
+    </div>
+</div>
+<script src="pet.js" charset="utf-8"></script>
+<script src="assets/js/music.js"></script> 
+
+<a href="https://fckgng.lol"><p class="mark">fckgng.lol</p></a>
+</html>
